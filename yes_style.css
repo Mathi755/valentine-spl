@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dbb6ee;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #6A5ACD;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+} 
+
+.love-message {
+    font-size: 1.5em;
+    color: #6a0572; /* Cute lavender color */
+    margin-top: 15px;
+}
+
+.surprise-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #8a2be2; /* Lavender shade */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.surprise-button:hover {
+    background-color: #6a0572;
+}
+
+#hidden-message {
+    padding: 15px;
+    font-size: 1.5em;
+    color: #ff4081; /* Cute pink */
+    margin-top: 20px;
+    font-weight: bold;
+}
